@@ -7,4 +7,10 @@ Python 3.9
 SkLearn 1.1.2
 An AWS account (RDS MySQL database, AWS Lambda function, AWS API Gateway)
 
-Reccomended installation is:
+Reccomended installation is
+For AWS:
+1. Configure AWS API Gateway to Trigger a lambda function
+2. In this lambda fucntion, copy the 'awsLambdaHandler.py' code from this repository
+
+For model training and selection:
+
