@@ -13,4 +13,7 @@ For AWS:
 2. In this lambda fucntion, copy the 'awsLambdaHandler.py' code from this repository
 
 For model training and selection:
-
+1. Download the latest pedestrian count data from https://www.melbourne.vic.gov.au/about-melbourne/research-and-statistics/city-population/Pages/pedestrian-counting-system.aspx
+2. run data_parse.ipynb with the data
+3. run knn_algorithm.ipynb to train the model
+4. run model_review.ipynb to review the training results and select a model
